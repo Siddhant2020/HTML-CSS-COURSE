@@ -3,8 +3,10 @@
         background-color: rgb(200, 0, 0);
         color: white;
         border: 0;
-        height: 36px;
-        width: 110;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
@@ -26,8 +28,10 @@
         border-style: solid;
         border-width: 1px;
         color: rgb(41, 125, 210);
-        height: 36px;
-        width: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 9px;
+        padding-bottom: 9px;
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
@@ -49,17 +53,32 @@
         color: white;
         background-color: rgb(52, 144, 237);
         border: 0px;
-        height: 36px;
-        width: 75px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-radius: 18px;
         font-weight: bold;
         font-size: 15px;
         cursor: pointer;
-        transition: box-shadow 0.15s;
+        transition: box-shadow 0.15s,
+            padding-right 0.15s,
+            padding-left 0.15s,
+            padding-top 0.15s,
+            padding-bottom 0.15s,
+            font-size 0.15s,
+            border-radius 0.15s;
+
     }
 
     .tweet-button:hover {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        border-radius: 25px;
+        font-size: 19px;
     }
 
     .tweet-button:active{
@@ -73,19 +92,25 @@
         border-radius: 5px;
         font-size: 15px;
         font-weight: bold;
-        height: 36px;
-        width: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* height: 36px;
+        width: 100px; */
         margin-left: 8px;
         cursor: pointer;
         transition: opactiy 0.15s;
     }
 
     .signup-button:hover {
-        background-color: white;
-        color: rgb(46, 166, 81);
-        border-width: 2px;
-        border-style: solid;
+        background-color: rgb(255, 249, 249);
         border:  rgb(46, 166, 81);
+        color: rgb(46, 166, 81);
+        border-width: 1px;
+        border-style: solid;        
+        padding-top: 9px;
+        padding-bottom: 9px;
     }
 
     .signup-button:active {
