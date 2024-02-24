@@ -8,6 +8,16 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity .15s;
+    }
+
+    .subscribe-button:hover {
+        opacity: 0.7;
+        /* background-color: rgb(234, 131, 131); */
+    }
+
+    .subscribe-button:active {
+        opacity: 0.4;
     }
     
     .join-button{
@@ -21,6 +31,18 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+
+        transition: background-color 0.15s,
+            color 0.15s;
+    }
+
+    .join-button:hover {
+        background-color: rgb(41, 125, 210);
+        color: white;
+    }
+
+    .join-button:active {
+        opacity: 0.7;
     }
 
     .tweet-button {
@@ -32,6 +54,16 @@
         border-radius: 18px;
         font-weight: bold;
         font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+    }
+
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+    }
+
+    .tweet-button:active{
+        opacity: 0.7;
     }
 
     .signup-button {
@@ -44,7 +76,23 @@
         height: 36px;
         width: 100px;
         margin-left: 8px;
+        cursor: pointer;
+        transition: opactiy 0.15s;
     }
+
+    .signup-button:hover {
+        background-color: white;
+        color: rgb(46, 166, 81);
+        border-width: 2px;
+        border-style: solid;
+        border:  rgb(46, 166, 81);
+    }
+
+    .signup-button:active {
+        opacity: 0.4;
+    }
+
+
 </style>
 
 <button class="subscribe-button">SUBSCRIBE</button>
