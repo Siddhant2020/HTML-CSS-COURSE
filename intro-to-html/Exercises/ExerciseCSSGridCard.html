@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Card Exercise</title>
+    <style>
+        .outer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;
+        }
+
+        .card-div {
+            border-color: rgba(145, 142, 142, 0.10);
+            border-style: solid;
+            border-width: 3px;
+            width: 250px;
+        }
+
+        .pro-picture {
+            width: 100%;
+        }
+
+        .profile-name {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            
+            margin: 5px 10px;
+        }
+
+        .channel-info-grid {
+            display: grid;
+            grid-template-columns: 1fr 5fr;
+        }
+
+        .channel-picture {
+            width: 40px;
+            border-radius: 50%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .mutual-info {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: gray;
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        .add-btn {
+            background-color: rgb(47, 133, 225);
+            color: white;
+            padding: 7px 20px;
+            border-radius: 3px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            border-width: 0;
+        }
+
+        .add-btn:hover {
+            opacity: 0.8;
+        }
+
+        .add-btn:active {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-grid">
+        <div class="card-div">
+            <div>
+                <img class="pro-picture" src="Images/cat.jpg">
+            </div>
+            <div>
+                <p class="profile-name">Oliver</p>
+            </div>
+            <div class="channel-info-grid">
+                <img class="channel-picture" src="Images/channel-1.jpeg">
+                <p class="mutual-info">2 mutual friends</p>
+            </div>
+            <div>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+        <div class="card-div">
+            <div>
+                <img class="pro-picture" src="Images/cat2.jpeg">
+            </div>
+            <div>
+                <p class="profile-name">Tom</p>
+            </div>
+            <div class="channel-info-grid">
+                <img class="channel-picture" src="Images/channel-2.jpeg">
+                <p class="mutual-info">2 mutual friends</p>
+            </div>
+            <div>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+        <div class="card-div">
+            <div>
+                <img class="pro-picture" src="Images/cat3.jpeg">
+            </div>
+            <div>
+                <p class="profile-name">Silvester</p>
+            </div>
+            <div class="channel-info-grid">
+                <img class="channel-picture" src="Images/channel-3.jpeg">
+                <p class="mutual-info">2 mutual friends</p>
+            </div>
+            <div>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+        
+        <div class="card-div">
+            <div>
+                <img class="pro-picture" src="Images/cat4.jpeg">
+            </div>
+            <div>
+                <p class="profile-name">Garfield</p>
+            </div>
+            <div class="channel-info-grid">
+                <img class="channel-picture" src="Images/channel-4.jpeg">
+                <p class="mutual-info">2 mutual friends</p>
+            </div>
+            <div>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+        
+        <div class="card-div">
+            <div>
+                <img class="pro-picture" src="Images/cat-pixel-design-260nw-1237098445.jpg">
+            </div>
+            <div>
+                <p class="profile-name">Pam</p>
+            </div>
+            <div class="channel-info-grid">
+                <img class="channel-picture" src="Images/channel-5.jpeg">
+                <p class="mutual-info">2 mutual friends</p>
+            </div>
+            <div>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
