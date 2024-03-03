@@ -7,10 +7,10 @@
     position: fixed;
     left: 0px;
     right: 0px;
-
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: rgba(180, 175, 175, 0.15);
+    z-index: 100;
 }
 
 .left-section {
@@ -104,6 +104,26 @@
 .youtubeapps-icon {
     height: 30px;
     width: 40px;
+}
+
+.notifications-icon-container {    
+    position: relative;
+}
+
+.notifications-count {    
+    position: absolute;
+    right: 3px;
+    top: 0px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: rgb(178, 5, 5);
+    color: white;
+    height: 14px;
+    width: 12px;
+    border-radius: 14px;
+    padding-left: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .notifications-icon {
