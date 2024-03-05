@@ -7,8 +7,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 40px;
-    padding-top: 80px;
-    padding-left: 80px;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 40px;
 }
 
 .video-info-grid {
